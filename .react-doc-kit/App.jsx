@@ -1,6 +1,7 @@
 
 import React from "react";
+import README from "../README.md";
 
 export function App() {
-  return <h1>Hello world!</h1>;
+  return <README/>;
 }

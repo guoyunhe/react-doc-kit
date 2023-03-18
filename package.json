@@ -30,7 +30,7 @@
     "README.md"
   ],
   "scripts": {
-    "start": "node dist/react-doc-kit.js start",
+    "start": "node dist/react-doc-kit.mjs start",
     "build": "node-scripts build",
     "format": "node-scripts format",
     "lint": "node-scripts lint",

@@ -15,7 +15,7 @@ const cached: UserConfig | null = null;
 export async function makeViteConfig(): Promise<UserConfig> {
   if (cached) return cached;
   const packageJson = await readPackageJson();
-  const root = '.doc-kit';
+  const root = '.react-doc-kit';
   return {
     base: './', // for GitHub pages
     root,
