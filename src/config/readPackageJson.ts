@@ -3,6 +3,10 @@ import { readFile } from 'fs/promises';
 export interface PackageJson {
   name: string;
   version: string;
+  description: string;
+  reactDocKit?: {
+    pages: [];
+  };
 }
 
 const cached: PackageJson | null = null;
