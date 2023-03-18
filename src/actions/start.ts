@@ -15,6 +15,5 @@ export async function start({ port = 3333 }) {
     },
   });
   await server.listen();
-
   server.printUrls();
 }

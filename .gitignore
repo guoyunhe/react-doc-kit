@@ -1,11 +1,14 @@
 # Build output
 dist
 
+# Cache and temp files
+.react-doc-kit
+
 # Coverage directory
 coverage
 
 # Dependency directories
-node_modules/
+node_modules
 
 # Lock files
 package-lock.json
